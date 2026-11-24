@@ -51,10 +51,7 @@ cp docs/templates/adr.md docs/decisions/000X-<短名>.md
 ## 6. 收尾（必做，无例外）
 
 1. 更新 [NOW.md](NOW.md)：在做什么、下一步、断点状态、`> 更新：` 时间。
-2. 新增/改名/删除过任何 md → 重建目录：
-   ```bash
-   node <skill-dir>/scripts/reindex.mjs docs
-   ```
+2. 新增/改名/删除过任何 md → 手工同步 [INDEX.md](INDEX.md) 的清单表，一行「链接 + 状态 + 说明」，状态和说明照抄该文档头部的两行。
 3. 发现文档与代码不一致 → 立刻改文档或标记 `待复审`，别留着。
 
 ## 文档更新对照表
@@ -68,5 +65,5 @@ cp docs/templates/adr.md docs/decisions/000X-<短名>.md
 | 要重构某块 | `refactor/<主题>.md` | 新建 |
 | 阶段/排期确定 | 由 `templates/milestone.md` 建 | 新建 |
 | 故障、踩坑 | 由 `templates/incident.md` 建 | 新建 |
-| 文档增删改名 | `INDEX.md` | 脚本重建 |
+| 文档增删改名 | `INDEX.md` | 手工更新清单表 |
 | 会话结束 | `NOW.md` | 更新 |
