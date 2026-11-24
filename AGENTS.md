@@ -15,13 +15,14 @@
 
 若 `docs/NOW.md` 里还是 `<尖括号占位>`，说明这是刚拷进来的空模板，上面那套"复述断点"不适用——没有断点可复述。此时先问清要做什么，填 `docs/projectneed.md` 和 `docs/NOW.md`，手上已有选型结论就顺手建第一条 `docs/decisions/0001-*.md`，填完才动代码。
 
-## 四条硬规则
+## 五条硬规则
 
 | 情况 | 动作 |
 | --- | --- |
 | 有方案被否掉 | 当场用 `docs/templates/adr.md` 建一条 ADR，备选方案与否决理由不能省 |
 | 要推翻已生效的 ADR | 新开一条，旧的只把状态行改成 `已废弃（被 NNNN 取代）`，正文不动 |
 | 写 `docs/projectneed.md` | 只写需求层。技术栈、表结构、接口契约、排期都不进——架构约束剥掉实现名翻译成产品语言 |
+| 要把环境信息写进 docs | **标识值不进**：IP、域名、主机名、端口、账号与家目录路径、密钥口令。写性质不写值，硬件规格用量级表述（见 `docs/writing-rules.md` §9） |
 | 任务结束、会话要断 | **无条件更新 `docs/NOW.md`**，含 `> 更新：` 时间 |
 
 完整流程见 [`docs/WORKFLOW.md`](docs/WORKFLOW.md)，书写约束见 [`docs/writing-rules.md`](docs/writing-rules.md)。
