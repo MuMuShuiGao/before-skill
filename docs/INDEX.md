@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | [NOW.md](NOW.md) | 生效中 | 当前进度快照与断点，新会话从这里接上 |
 | [projectneed.md](projectneed.md) | 草案 | 需求 / PRD，只写需求层 |
-| [WORKFLOW.md](WORKFLOW.md) | 生效中 | 开发流程 + 每一步该动哪个文档 |
+| [WORKFLOW.md](WORKFLOW.md) | 生效中 | 从领需求到提交的流程、提交信息规范，以及每一步该动哪个文档 |
 | [writing-rules.md](writing-rules.md) | 生效中 | 文档书写规范：分层、状态行、什么能改什么不能改 |
 | [decisions/README.md](decisions/README.md) | 生效中 | ADR 目录的收录边界与命名规则 |
 | [design/README.md](design/README.md) | 生效中 | 定论设计的收录边界 |

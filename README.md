@@ -26,8 +26,8 @@ Copy-Item          <模板路径>\AGENTS.md <新项目>\AGENTS.md
 
 | 文件 | 作用 |
 | --- | --- |
-| [AGENTS.md](AGENTS.md) | 放在项目根，助手新会话会自动读到：先读 `docs/NOW.md` 再动代码，外加五条硬规则 |
-| [docs/WORKFLOW.md](docs/WORKFLOW.md) | 给人看的流程：从领需求到提交，每一步该动哪个文档 |
+| [AGENTS.md](AGENTS.md) | 放在项目根，助手新会话会自动读到：先读 `docs/NOW.md` 再动代码，外加六条硬规则 |
+| [docs/WORKFLOW.md](docs/WORKFLOW.md) | 流程与提交规范：从领需求到提交，每一步该动哪个文档、提交信息怎么写 |
 
 AGENTS.md 只做入口，不复述规则正文。细节仍然只在 `docs/` 里维护一份，改流程时不用两头动。
 
